@@ -1,7 +1,7 @@
 {
-  "name": "prototipo-microaprendizaje",
+  "name": "curva",
   "version": "1.0.0",
-  "description": "Prototipo de app de microaprendizaje: lecciones en tarjetas deslizables con física de muelle, gráficos de datos animados y seguimiento de racha.",
+  "description": "App de microaprendizaje: 378 resúmenes de libros escritos a mano y 761 historias cortas ilustradas.",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,7 @@
     "artefacto": "npm run build && node scripts/artefacto.mjs"
   },
   "keywords": [],
-  "author": "",
+  "author": "Pablo Verdejo Alonso",
   "license": "MIT",
   "dependencies": {
     "framer-motion": "^12.42.2",
@@ -25,5 +25,6 @@
     "typescript": "^7.0.2",
     "vite": "^8.1.5"
   },
-  "type": "module"
+  "type": "module",
+  "private": true
 }
